@@ -79,6 +79,8 @@ input, select, textarea {
 
     height:0;
 
+    border-radius:1.3em;
+
 }
 
 .map-responsive iframe{

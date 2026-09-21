@@ -182,4 +182,12 @@
 
 			});
 
+		// Opcional: También permite cerrar el modal si el usuario hace clic fuera de la imagen (en el velo oscuro)
+		window.onclick = function(event) {
+		    var modal = document.getElementById('modalAviso');
+		    if (event.target == modal) {
+		        modal.style.display = 'none';
+		    }
+		}
+	
 })(jQuery);
